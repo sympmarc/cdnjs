@@ -1,7 +1,7 @@
 {
     "name": "jsxgraph",
     "filename": "jsxgraphcore.js",
-    "version": "0.93",
+    "version": "0.99.1",
     "description": "JSXGraph is a cross-browser library for interactive geometry, function plotting, charting, and data visualization in a web browser.",
     "homepage": "http://jsxgraph.org/",
     "keywords": [
@@ -12,12 +12,16 @@
    "maintainers": [
        {
            "name": "JSXGraph group at University of Bayreuth, Germany"
-       } 
+       }
    ],
    "repositories": [
        {
-           "type": "svn",
-           "url": "https://jsxgraph.svn.sourceforge.net/svnroot/jsxgraph" 
-       } 
+           "type": "git",
+           "url": "https://github.com/jsxgraph/jsxgraph.git"
+       },
+       {
+           "type": "git",
+           "url": "http://git.code.sf.net/p/jsxgraph/code"
+       }
    ]
 }
