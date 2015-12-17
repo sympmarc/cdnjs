@@ -14,20 +14,6 @@
     "name": "Stephan Fischer",
     "url": "https://github.com/stephan-fischer"
   },
-  "maintainers": [
-    {
-      "name": "Stephan Fischer",
-      "email": "stephan@ainetworks.de",
-      "url": "http://www.ainetworks.de"
-    }
-  ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/stephan-fischer/jQuery-LiveUrl"
-    }
-  ],
-  "bugs": "https://github.com/stephan-fischer/jQuery-LiveUrl/issues",
   "homepage": "https://github.com/stephan-fischer/jQuery-LiveUrl",
   "docs": "https://github.com/jquery/jquery-color",
   "download": "https://github.com/stephan-fischer/jQuery-LiveUrl/archive/master.zip",
@@ -42,5 +28,10 @@
     "files": [
       "jquery.liveurl.js"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stephan-fischer/jQuery-LiveUrl.git"
+  },
+  "license": "MIT"
 }

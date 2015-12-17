@@ -1,6 +1,6 @@
 {
   "name": "mindb",
-  "version": "0.0.4",
+  "version": "0.1.11",
   "description": "Database on JavaScript",
   "filename": "min.js",
   "repository": {
@@ -16,9 +16,6 @@
   ],
   "author": "iwillwen",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/iwillwen/mindb/issues"
-  },
   "homepage": "https://github.com/iwillwen/mindb",
   "npmName": "min",
   "npmFileMap": [

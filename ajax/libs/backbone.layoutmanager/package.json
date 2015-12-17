@@ -1,7 +1,7 @@
 {
   "name": "backbone.layoutmanager",
   "filename": "backbone.layoutmanager.min.js",
-  "version": "0.9.5",
+  "version": "0.10.0",
   "description": "A layout and template manager for Backbone.js applications.",
   "homepage": "http://layoutmanager.org",
   "keywords": [
@@ -9,20 +9,6 @@
     "layout",
     "templates",
     "views"
-  ],
-  "devDependencies": {
-    "backbone.js": "0.9.10"
-  },
-  "maintainers": [
-    {
-      "name": "Tim Branyen (@tbranyen)"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "http://github.com/tbranyen/backbone.layoutmanager"
-    }
   ],
   "npmName": "backbone.layoutmanager",
   "npmFileMap": [
@@ -32,5 +18,10 @@
         "*.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tbranyen/backbone.layoutmanager"
+  },
+  "license": "MIT"
 }

@@ -1,0 +1,28 @@
+{
+  "name": "jquery.panzoom",
+  "filename": "jquery.panzoom.min.js",
+  "version": "2.0.5",
+  "homepage": "http://timmywil.github.io/jquery.panzoom/",
+  "description": "A jQuery plugin to pan and/or zoom elements using CSS3",
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "panning",
+    "zooming",
+    "panzoom"
+  ],
+  "license": "MIT",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/timmywil/jquery.panzoom.git",
+    "basePath": "dist/",
+    "files": [
+      "**/*"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timmywil/jquery.panzoom"
+  },
+  "author": "Timmy Willison"
+}

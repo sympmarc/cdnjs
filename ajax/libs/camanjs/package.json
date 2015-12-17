@@ -2,7 +2,7 @@
   "name": "camanjs",
   "filename": "caman.full.min.js",
   "version": "4.1.2",
-  "description": "Pure Javascript (Ca)nvas (Man)ipulation.",
+  "description": "Javascript (Ca)nvas (Man)ipulation for NodeJS and the browser",
   "homepage": "http://camanjs.com/",
   "keywords": [
     "html5",
@@ -13,18 +13,6 @@
     "pixel",
     "effects"
   ],
-  "maintainers": [
-    {
-      "name": "Ryan LeFevre",
-      "website": "http://meltingice.net"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/meltingice/CamanJS"
-    }
-  ],
   "npmName": "caman",
   "npmFileMap": [
     {
@@ -33,5 +21,9 @@
         "*"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meltingice/CamanJS"
+  }
 }

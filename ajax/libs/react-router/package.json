@@ -1,0 +1,28 @@
+{
+  "name": "react-router",
+  "filename": "ReactRouter.min.js",
+  "version": "1.0.2",
+  "description": "A complete routing library for React.js",
+  "keywords": [
+    "react",
+    "reactjs",
+    "router",
+    "routes",
+    "routing"
+  ],
+  "homepage": "https://github.com/rackt/react-router",
+  "npmName": "react-router",
+  "npmFileMap": [
+    {
+      "basePath": "umd",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rackt/react-router.git"
+  },
+  "license": "MIT"
+}

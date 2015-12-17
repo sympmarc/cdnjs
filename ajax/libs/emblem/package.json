@@ -1,8 +1,8 @@
 {
   "name": "emblem",
   "filename": "emblem.min.js",
-  "version": "0.3.18",
-  "description": "Ember-friendly, indented syntax alternative for Handlebars.js",
+  "version": "0.4.0",
+  "description": "Templating language targeting Handlebars with default Ember.js conventions",
   "homepage": "http://emblemjs.com/",
   "keywords": [
     "ember",
@@ -10,18 +10,6 @@
     "template",
     "html",
     "indentation"
-  ],
-  "maintainers": [
-    {
-      "name": "Emblem.js",
-      "web": "http://emblemjs.com/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/machty/emblem.js"
-    }
   ],
   "npmName": "emblem",
   "npmFileMap": [
@@ -32,5 +20,10 @@
         "emblem.min.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/machty/emblem.js"
+  },
+  "license": "MIT"
 }

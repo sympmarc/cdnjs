@@ -1,8 +1,8 @@
 {
   "name": "holder",
-  "filename": "holder.js",
-  "version": "2.4.1",
-  "description": "Client-side image placeholders.",
+  "filename": "holder.min.js",
+  "version": "2.9.0",
+  "description": "Holder uses SVG to render image placeholders entirely in browser.",
   "homepage": "http://imsky.github.io/holder/",
   "keywords": [
     "images",
@@ -12,23 +12,18 @@
     "generation",
     "development"
   ],
-  "maintainers": [
-    {
-      "name": "Ivan Malopinsky"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/imsky/holder.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/imsky/holder.git",
     "basePath": "",
     "files": [
-      "holder.js"
+      "holder.js",
+      "holder.min.js"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imsky/holder.git"
+  },
+  "license": "MIT"
 }

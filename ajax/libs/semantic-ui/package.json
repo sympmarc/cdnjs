@@ -1,29 +1,24 @@
 {
   "name": "semantic-ui",
   "filename": "semantic.min.js",
-  "version": "1.2.0",
-  "description": "Semantic empowers designers and developers by creating a language for sharing UI",
+  "version": "2.1.6",
+  "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
   "homepage": "http://semantic-ui.com/",
   "keywords": [
     "semantic",
     "ui"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/Semantic-Org/Semantic-UI"
-    }
-  ],
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/Semantic-Org/Semantic-UI",
+    "target": "git://github.com/Semantic-Org/Semantic-UI.git",
     "basePath": "dist",
     "files": [
-      "*/*/*/*/*",
-      "*/*/*/*",
-      "*/*/*",
-      "*/*",
-      "*"
+      "**/*"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Semantic-Org/Semantic-UI"
+  },
+  "license": "MIT"
 }

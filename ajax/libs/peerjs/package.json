@@ -2,23 +2,11 @@
   "name": "peerjs",
   "filename": "peer.min.js",
   "version": "0.3.14",
-  "description": "Peer-to-peer data in the browser.",
+  "description": "PeerJS client",
   "homepage": "http://peerjs.com/",
   "keywords": [
     "js",
     "WebRTC"
-  ],
-  "maintainers": [
-    {
-      "name": "PeerJS",
-      "web": "http://peerjs.com/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/peers/peerjs"
-    }
   ],
   "npmName": "peerjs",
   "npmFileMap": [
@@ -28,5 +16,10 @@
         "*"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peers/peerjs"
+  },
+  "license": "MIT"
 }

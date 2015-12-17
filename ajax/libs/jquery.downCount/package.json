@@ -13,12 +13,6 @@
     "name": "Sonny T.",
     "url": "https://sonnyt.com"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://ionden.com/a/licence-en.html"
-    }
-  ],
   "homepage": "http://sonnyt.com/downCount-plugin/",
   "docs": "https://github.com/sonnyt/downCount#downCount",
   "demo": "http://sonnyt.com/downCount",
@@ -32,5 +26,10 @@
     "files": [
       "jquery.downCount.js"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sonnyt/downCount.git"
+  },
+  "license": "MIT"
 }

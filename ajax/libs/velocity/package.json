@@ -1,17 +1,11 @@
 {
   "name": "velocity",
-  "version": "1.1.0",
+  "version": "1.2.3",
   "homepage": "http://velocityjs.org",
   "author": {
     "name": "Julian Shapiro",
     "homepage": "http://julian.com/"
   },
-  "maintainers": [
-    {
-      "name": "Julian Shapiro",
-      "homepage": "http://julian.com/"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/julianshapiro/velocity.git",
@@ -24,7 +18,6 @@
     ]
   },
   "description": "Accelerated JavaScript animation.",
-  "main": "velocity.min.js",
   "filename": "velocity.min.js",
   "keywords": [
     "animation",

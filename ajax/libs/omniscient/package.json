@@ -1,8 +1,8 @@
 {
   "name": "omniscient",
   "filename": "omniscient.min.js",
-  "version": "2.1.0",
-  "description": "A simple abstraction and architecture providing unidirectional flow and immutable data structures to React.",
+  "version": "4.1.1",
+  "description": "A library providing an abstraction for React components for passing the same data structure through the entire component flow using cursors and immutable data structures.",
   "keywords": [
     "quiescent",
     "react",
@@ -13,15 +13,18 @@
     "components"
   ],
   "homepage": "https://github.com/omniscientjs/omniscient",
-  "bugs": {
-    "url": "https://github.com/omniscientjs/omniscient/issues"
-  },
-  "peerDependencies": {
-    "react": ">=0.12.0"
-  },
   "npmName": "omniscient",
-  "npmFileMap": [{
-    "basePath": "/dist/",
-    "files": ["*.js"]
-  }]
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omniscientjs/omniscient"
+  },
+  "license": "MIT"
 }

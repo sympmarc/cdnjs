@@ -5,13 +5,13 @@
     {
       "basePath": "/lib/",
       "files": [
-        "*"
+        "string.*"
       ]
     }
   ],
   "filename": "string.min.js",
-  "version": "3.0.0",
-  "description": "string.js contains methods that aren't included in the vanilla JavaScript string such as escaping HTML, decoding HTML entities, stripping tags, etc.",
+  "version": "3.3.1",
+  "description": "string contains methods that aren't included in the vanilla JavaScript string such as escaping html, decoding html entities, stripping tags, etc.",
   "homepage": "http://stringjs.com",
   "keywords": [
     "string",
@@ -34,10 +34,9 @@
     "unescape"
   ],
   "author": "JP Richardson <jprichardson@gmail.com>",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jprichardson/string.js"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jprichardson/string.js"
+  },
+  "license": "MIT"
 }

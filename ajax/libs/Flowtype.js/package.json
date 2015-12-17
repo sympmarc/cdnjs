@@ -2,27 +2,11 @@
   "name": "Flowtype.js",
   "filename": "flowtype.min.js",
   "version": "1.1.0",
-  "main": [
-    "flowtype.js"
-  ],
-  "ignore": [],
   "dependencies": {
     "jquery": "latest"
   },
   "description": "Web typography at its finest: font-size and line-height based on element width.",
   "homepage": "http://simplefocus.com/flowtype/",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/simplefocus/FlowType.JS"
-    }
-  ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://choosealicense.com/licenses/mit/"
-    }
-  ],
   "keywords": [
     "flowtype"
   ],
@@ -33,5 +17,10 @@
     "files": [
       "flowtype.js"
     ]
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simplefocus/FlowType.JS"
   }
 }

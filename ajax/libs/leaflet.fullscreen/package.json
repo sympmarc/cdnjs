@@ -3,6 +3,10 @@
   "filename": "Control.FullScreen.min.js",
   "version": "1.0.0",
   "homepage": "https://github.com/brunob/leaflet.fullscreen",
-  "description": "Leaflet.Control.FullScreen for Leaflet http://brunob.github.com/leaflet.fullscreen/",
-  "license": "MIT"
+  "description": "Simple plugin for Leaflet that adds fullscreen button to your maps.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunob/leaflet.fullscreen"
+  }
 }

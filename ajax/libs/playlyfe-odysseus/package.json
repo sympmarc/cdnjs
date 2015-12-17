@@ -18,22 +18,6 @@
     "type": "git",
     "url": "git://github.com/playlyfe/odysseus.git"
   },
-  "bugs": {
-    "url": "http://github.com/playlyfe/odysseus/issues"
-  },
-  "contributors": [
-    {
-      "name": "Kumar Harsh",
-      "email": "khs@playlyfe.com",
-      "url": "http://github.com/kumarharsh"
-    }
-  ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/playlyfe/odysseus.git",
@@ -42,5 +26,6 @@
       "odysseus.js",
       "odysseus.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

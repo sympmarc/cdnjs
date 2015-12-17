@@ -10,9 +10,9 @@
       ]
     }
   ],
-  "filename": "xlsx.js",
-  "version": "0.7.12",
-  "description": "Javascript XLSX / XLSM / XLSB (Excel 2007+) parser",
+  "filename": "xlsx.min.js",
+  "version": "0.8.0",
+  "description": "Excel (XLSB/XLSX/XLSM/XLS/XML) and ODS spreadsheet parser and writer",
   "homepage": "https://github.com/SheetJS/js-xlsx",
   "license": "Apache License, Version 2.0",
   "keywords": [
@@ -24,10 +24,8 @@
     "parser"
   ],
   "author": "SheetJS",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/SheetJS/js-xlsx.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SheetJS/js-xlsx.git"
+  }
 }

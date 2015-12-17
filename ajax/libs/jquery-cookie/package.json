@@ -8,11 +8,18 @@
     "jquery",
     "cookie"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url" : "https://github.com/carhartl/jquery-cookie"
-    }
-  ],
-  "namespace": "$.cookie"
+  "namespace": "$.cookie",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carhartl/jquery-cookie"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/carhartl/jquery-cookie.git",
+    "basePath": "",
+    "files": [
+      "jquery.cookie*.js"
+    ]
+  },
+  "license": "MIT"
 }

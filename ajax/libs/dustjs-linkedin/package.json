@@ -1,8 +1,8 @@
 {
   "name": "dustjs-linkedin",
   "filename": "dust-core.min.js",
-  "version": "2.5.1",
-  "description": "Asynchronous templates for the browser and node.js ( LinkedIn fork )",
+  "version": "2.7.2",
+  "description": "Asynchronous templates for the browser and server (LinkedIn fork)",
   "homepage": "http://linkedin.github.com/dustjs/",
   "keywords": [
     "template",
@@ -10,18 +10,6 @@
     "dust",
     "linkedin",
     "asynchronous"
-  ],
-  "maintainers": [
-    {
-      "name": "LinkedIn",
-      "web": "https://github.com/linkedin"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/linkedin/dustjs"
-    }
   ],
   "npmName": "dustjs-linkedin",
   "npmFileMap": [
@@ -31,5 +19,10 @@
         "*.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linkedin/dustjs"
+  },
+  "license": "MIT"
 }

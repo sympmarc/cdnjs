@@ -1,22 +1,24 @@
 {
   "name": "ace",
   "filename": "ace.js",
-  "version": "1.1.3",
-  "description": "Ace is a standalone code editor written in JavaScript.",
+  "version": "1.2.2",
+  "description": "Ace (Ajax.org Cloud9 Editor)",
   "homepage": "http://ace.ajax.org/",
   "keywords": [
-     "code",
-     "editor"
- ],
- "maintainers": [
-     {
-         "name": "The Ace Project"
-     }
- ],
- "repositories": [
-     {
-         "type": "git",
-         "url": "https://github.com/ajaxorg/ace-builds/"
-     }
- ]
+    "code",
+    "editor"
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/ajaxorg/ace-builds.git",
+    "basePath": "src-min",
+    "files": [
+      "**/*"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajaxorg/ace-builds/"
+  },
+  "license": "BSD"
 }

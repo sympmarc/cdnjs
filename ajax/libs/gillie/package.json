@@ -2,7 +2,7 @@
   "name": "gillie",
   "filename": "gillie.min.js",
   "version": "0.2.1",
-  "description": "MVC JavaScript MicroFramework",
+  "description": "JavaScript MVC Microframework",
   "homepage": "http://pablovallejo.github.io/gillie",
   "keywords": [
     "mvc",
@@ -15,5 +15,10 @@
     "name": "Pablo Vallejo",
     "email": "pabloninety@gmail.com",
     "url": "http://pablovallejo.me"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pablovallejo/gillie"
+  },
+  "license": "MIT"
 }

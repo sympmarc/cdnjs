@@ -1,8 +1,8 @@
 {
   "name": "cutjs",
   "filename": "cut.web.min.js",
-  "version": "0.2.1",
-  "description": "Lightweight, fast, interactable 2D HTML5 rendering engine for cross-platform game development.",
+  "version": "0.4.14",
+  "description": "2D HTML5 JavaScript library for cross-platform game development",
   "homepage": "http://cutjs.org/",
   "keywords": [
     "html5",
@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/piqnt/cutjs.git"
+    "url": "https://github.com/piqnt/stage.js.git"
   },
   "npmName": "cutjs",
   "npmFileMap": [

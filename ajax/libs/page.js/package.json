@@ -1,0 +1,21 @@
+{
+  "name": "page.js",
+  "filename": "page.min.js",
+  "description": "Tiny client-side router",
+  "version": "1.6.4",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/visionmedia/page.js.git"
+  },
+  "homepage": "https://github.com/visionmedia/page.js",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/visionmedia/page.js.git",
+    "basePath": "",
+    "files": [
+      "page.js",
+      "page.min.js"
+    ]
+  },
+  "license": "MIT"
+}

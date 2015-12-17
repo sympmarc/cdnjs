@@ -1,9 +1,9 @@
 {
   "name": "UAParser.js",
   "filename": "ua-parser.min.js",
-  "version": "0.7.3",
+  "version": "0.7.10",
   "description": "Lightweight JavaScript-based user-agent string parser",
-  "homepage": "http://github.com/faisalman/ua-parser-js",
+  "homepage": "https://github.com/faisalman/ua-parser-js",
   "keywords": [
     "user-agent",
     "parser",
@@ -13,21 +13,12 @@
     "device",
     "cpu"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/faisalman/ua-parser-js.git"
-    }
-  ],
   "licenses": [
     {
       "type": "GPLv2",
       "url": "http://www.gnu.org/licenses/gpl-2.0.html"
     },
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
+    "MIT"
   ],
   "author": "Faisal Salman <fyzlman@gmail.com> (http://faisalman.com)",
   "npmName": "ua-parser-js",
@@ -38,5 +29,9 @@
         "*.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faisalman/ua-parser-js.git"
+  }
 }

@@ -1,8 +1,8 @@
 {
   "name": "anima",
   "filename": "anima.min.js",
-  "version": "0.3.7",
-  "description": "CSS animations with a soul",
+  "version": "0.4.0",
+  "description": "CSS/JS Animations Library with Physics support",
   "repository": {
     "type": "git",
     "url": "https://github.com/lvivski/anima"

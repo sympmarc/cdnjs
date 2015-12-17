@@ -2,21 +2,23 @@
   "name": "validator",
   "npmName": "validator",
   "filename": "validator.min.js",
-  "version": "3.12.0",
-  "description": "A library of string validators and sanitizers.",
+  "version": "4.0.5",
+  "description": "String validation and sanitization",
   "homepage": "https://github.com/chriso/validator.js",
   "keywords": [
     "validator"
   ],
-  "maintainers": [
-    {
-      "name": "Chris O'Hara <cohara87@gmail.com>"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/chriso/validator.js.git"
-    }
-  ]
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/chriso/validator.js.git",
+    "basePath": "",
+    "files": [
+      "validator*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chriso/validator.js.git"
+  },
+  "license": "MIT"
 }

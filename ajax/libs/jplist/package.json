@@ -13,16 +13,9 @@
     "sort",
     "sorting"
   ],
-  "maintainers": [
-    {
-      "name": "Miriam Zusin",
-      "web": "http://jplist.com"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/no81no/jplist"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/no81no/jplist"
+  },
+  "license": "MIT"
 }

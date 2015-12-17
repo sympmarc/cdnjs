@@ -1,0 +1,29 @@
+{
+  "name": "whereyat",
+  "npmName": "whereyat",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
+  "filename": "jquery.whereyat.min.js",
+  "version": "0.1.2",
+  "homepage": "http://www.wherey.at/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WhereYat/whereyat-js.git"
+  },
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": [
+    "responsive",
+    "rwd",
+    "geolocation",
+    "location"
+  ],
+  "license": "MIT"
+}

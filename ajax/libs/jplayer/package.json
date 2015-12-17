@@ -1,8 +1,8 @@
 {
   "name": "jplayer",
-  "filename": "jquery.jplayer/jquery.jplayer.min.js",
-  "version": "2.7.1",
-  "description": "The jQuery HTML5 Audio / Video Library",
+  "filename": "jplayer/jquery.jplayer.min.js",
+  "version": "2.9.2",
+  "description": "The jQuery HTML5 Audio / Video Library. Allows you to create a media player with a consistent interface and experience across all browsers.",
   "homepage": "http://www.jplayer.org/",
   "keywords": [
     "framework",
@@ -10,25 +10,26 @@
     "video",
     "html5"
   ],
-  "maintainers": [
-    {
-      "name": "Happyworm",
-      "web": "http://www.happyworm.com/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/happyworm/jPlayer.git"
-    }
-  ],
   "dependencies": {
     "jquery": ">1.7.0"
   },
-  "licenses": [
+  "npmName": "jplayer",
+  "npmFileMap": [
     {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
+      "basePath": "/dist/",
+      "files": [
+        "**/*.css",
+        "**/*.js",
+        "**/*.jpg",
+        "**/*.png",
+        "**/*.gif",
+        "**/*.swf"
+      ]
     }
-  ]
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/happyworm/jPlayer.git"
+  }
 }

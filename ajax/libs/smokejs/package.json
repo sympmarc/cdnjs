@@ -1,0 +1,32 @@
+{
+  "name": "smokejs",
+  "version": "3.0.1",
+  "description": "Smoke form validation and components for Bootstrap",
+  "filename": "js/smoke.min.js",
+  "license": "LGPL",
+  "author": "Alfredo Barron",
+  "homepage": "https://github.com/alfredobarron/smoke",
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "JavaScript",
+    "JQuery",
+    "plugin",
+    "bootstrap",
+    "front-end",
+    "web"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alfredobarron/smoke.git"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/alfredobarron/smoke.git",
+    "basePath": "dist",
+    "files": [
+      "**/*"
+    ]
+  }
+}

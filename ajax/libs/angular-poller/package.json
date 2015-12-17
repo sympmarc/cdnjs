@@ -2,7 +2,7 @@
   "name": "angular-poller",
   "filename": "angular-poller.min.js",
   "description": "Angular Poller service uses a timer and sends requests every few seconds to keep the client synced with the server.",
-  "version": "0.3.2",
+  "version": "0.4.2",
   "homepage": "https://github.com/emmaguo/angular-poller.git",
   "author": {
     "name": "Emma Guo",
@@ -10,14 +10,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/emmaguo/angular-poller.git"
+    "url": "https://github.com/emmaguo/angular-poller.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/emmaguo/angular-poller/blob/master/LICENSE.md"
-    }
-  ],
   "dependencies": {},
   "keywords": [
     "AngularJS",
@@ -34,5 +28,6 @@
       "angular-poller.js",
       "angular-poller.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }
